@@ -1,0 +1,241 @@
+
+body {
+
+	background-color:#DDDDDD;
+	
+}
+
+.container {
+	background-color: white;
+	padding: 0%;
+	margin: 0%;
+	margin-right: 0%;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.container-fluid {
+	width: 100%;
+	padding: 0%;
+}
+
+.section-first {
+	background-color: white;
+
+}
+
+div.header {
+	display: inline-block;
+	text-indent: 150px;
+	
+}
+
+ #name {
+	
+	font-weight: normal;
+	color: #1168A1;
+	margin-bottom: -1%;
+	padding: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 25px;
+
+} 
+
+
+h2{
+	text-indent: 150px;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+
+.navbar{
+	float: right;
+	margin-right: 5%;
+	margin-top: 1%;
+}
+
+.container-fluid{
+	position: relative;
+}
+
+.image-sector{
+	position: relative;
+}
+.image-laptop{
+	
+	width: 1450px;
+	height: 700px;
+	filter: brightness(65%);
+	width: 100%;
+	
+}
+
+.text-image {
+	position: absolute;
+	margin-top: -600px;
+	text-align: center;
+	width: 100%;
+	font-size: 18px;
+	transform: scale(1, 1);
+	font-style: italic;
+	color: #DADADA;
+	font-weight: 100;
+	font-family: Open Sans;
+
+}
+
+
+#name-big{
+	
+	top: 120px;
+	width: 100%;
+	font-weight: normal;
+	color: white;
+	margin-bottom: -20px;
+	margin-top: 15%;
+	font-size: 80px;
+	font-family: serif;
+
+} 
+
+
+#description {
+	
+	margin-top: 2%;
+	width: 100%;
+	font-weight: lighter;
+	color: black;
+	font-size: 25px;
+	font-style: italic;
+	text-align: center;
+
+}
+
+
+.aboutMe {
+	border: 2px solid;
+	padding: 10px;
+	text-align: center;
+	width: 25%;
+	/*color: rgb(68,68,68);*/
+	float: center;
+	margin: auto;
+	margin-top: 4.5%;
+	font-size: 20px;
+	box-sizing: border-box;
+
+}
+
+#myPhoto {
+	width: 23%;
+	margin-top: 4%;
+	margin-left: 23%;
+	display: inline-block;
+
+}
+
+#text{
+
+	float: right;
+	font-size: 16px;
+	width: 30%;
+	margin-right: 18%;
+	margin-left: 5%;	
+	margin-top: 4.5%;
+	color: rgb(68,68,68);
+}
+
+hr {
+	margin-top: 4%;
+	margin-bottom: 0%;
+}
+
+h1{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 3%;
+}
+
+
+
+.myProjects{
+	text-align: center;
+}
+
+.flex-container{
+	display: flex;
+	justify-content: center;
+
+} 
+
+.child1 .child2 {
+	margin: 10%;
+	width: 37%;
+}
+
+figcaption{
+	margin-top: 8%;
+
+}
+
+
+.contactMeButton{
+	text-align: center;
+}
+
+
+#contactMe{
+
+	text-align: center;
+	margin-left: 40px;
+	font-size: 30px;
+}
+
+.contactSector{
+	background-color: white;
+	margin-bottom: 0%;
+	padding: 3%;
+}
+
+.contacts{
+	
+	margin-left: 5%;
+	margin-top: 1%;
+	margin-bottom: 0%;
+	width: 100%;
+
+}
+
+a:link {
+    
+    color: rgb(64,164,236); 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(85,26,139);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
+
+
+
