@@ -22,6 +22,7 @@ body {
 
 .section-first {
 	background-color: white;
+	padding: 2%;
 
 }
 
@@ -53,7 +54,6 @@ h2{
 
 .navbar{
 	float: right;
-	margin-right: 5%;
 	margin-top: 1%;
 }
 
