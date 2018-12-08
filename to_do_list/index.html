@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To do list</title>
+	<style >
+		form {
+
+		}
+	</style>
+</head>
+<body>
+
+	<h1> To do list </h1>
+
+	<p> Please key in whatever you need to finish today! </p>
+
+	<form> 
+		<input id = "new-task" type = "text"> 
+		<button id = "submit-button" > Add </button>
+
+	</form>
+
+	<ul> </ul>
+
+	<script>
+
+
+
+		const button = document.querySelector ('#submit-button')
+		let input = document.querySelector ('#new-task')
+        
+
+    function newElem () {
+        let fullList = document.querySelector ('ul')
+		
+        let list = document.createElement ('li');
+        let newValue  = input.value
+        list.innerHTML = newValue
+
+
+        if (newValue == '') {
+            window.alert ("You have to key in something! ;( ")
+        }
+        else {
+            
+            fullList.appendChild(list)
+
+        }
+        }
+
+
+
+        button.onclick = function (){
+
+        	event.preventDefault()
+            newElem()
+            input.value = ""
+
+        }
+
+        
+
+	</script>
+
+	
+</body>
+</html>
