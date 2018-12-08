@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Click me!</title>
+	<style> 
+	button {
+		font-size: 50px;
+		background-color: #fcc2e5;
+		border-radius: 15px;
+		padding: 15px;
+		padding-left: 30px;
+		padding-right: 30px;
+		color: #87446c;
+		text-align: center;
+		position: relative;
+
+	}
+
+
+	.mouseHovered {
+
+	}
+
+</style>
+</head>
+<body>
+	<button> <a href = "https://www.youtube.com/" > Click me! </a> </button>
+
+	<script>
+
+		const button = document.querySelector ('button')
+
+		// To make button move
+
+		function positionRandom (){
+
+			const t = Math.floor (Math.random()* 800);
+
+			return t + 'px'
+		}
+		let hoverCount = 0;
+
+		button.onmouseover = function (){
+			button.classList.add ('mouseHovered')
+			console.log ('hovered!!!')
+			
+			hoverCount = hoverCount + 1
+			console.log (hoverCount)
+
+		if (hoverCount < 10 ) {
+
+		button.style.top = positionRandom()
+		button.style.right = positionRandom()
+		button.style.button = positionRandom()
+		button.style.left = positionRandom()
+		}
+
+		else {
+		button.onclick = function (){
+			button.setAttribute ('href', 'https://www.youtube.com/') 
+			
+
+		} 
+		}
+		}
+
+		button.onmouseout = function (){
+			console.log ('unhovered!!!')
+		}
+
+
+
+
+
+	</script>
+
+</body>
+</html>
